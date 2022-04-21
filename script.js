@@ -22,7 +22,7 @@ function findAge(currentDay, currentMonth, currentYear, birthday, birthMonth, bi
     var diffmonth = diffmo + diffm;
 
     var output2 = "If you were to live to 90, you have "+diff+" years and "+diffm+" months left. Or "+diffmonth+" months"
-    alert(output2)
+    console.log(output2);
 }
 findAge(prompt("Enter current day"), prompt("Enter current month"), prompt("Enter current year"), prompt("Enter day of birth"), prompt("Enter birth month"), prompt("Enter birth year"));
 
